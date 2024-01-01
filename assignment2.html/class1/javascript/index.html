@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="1datatype.js"></script>
+    <h2>computer languages</h2>
+
+    <button onclick="myFunction()">use me</button>
+    
+    <script>
+    function myFunction() {
+      alert("c++,javascript,python");
+    }
+    </script>
+    <h2>Objects</h2>
+
+    <p id="demo"></p>
+    
+    <script>
+    // Create an object:
+    const person = {
+      employeeName: "John Doe",
+      employeeNo: "20",
+      age: 50,
+      Department: "IT"
+    }
+    // Display some data from the object:
+    document.getElementById("demo").innerHTML =
+    person.employeeName + " is " + person.age + " years old" + 
+    person.Department + person.employeeNo ;
+    </script>
+    <h1 onclick="this.innerHTML = 'you have moved the mouse on the button'">Click on this text!</h1>
+
+</body>
+</html>
